@@ -8,31 +8,15 @@
 }
 
 body {
-	
-/*	background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);   rgba(157, 94, 66, 0.27) Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(#030202, rgba(157, 94, 66, 0.85)), url(img/big_artfichier.jpg);
-  //background:url(backgrounds-vintages.jpg);
 	font-size: 62.5%;
 	background-attachment: fixed;
 	background-position: 0 0;
 	background-size: cover;
-	/* cover: to fit the window */
 	background-repeat: repeat-y;
-  //animation:  slowSlide 8s ease-in-out infinite;
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #181818;
 }
-
-/*
-@keyframes slowSlide {
-	from {
-		background-position: 0% 0%;
-	}
-	to {
-		background-position: 100% 0%;
-	}
-}
-*/
 
 nav span {
 	display: none;
@@ -45,15 +29,11 @@ nav span {
 .container {
 	width: 85%;
 	margin: 0 auto;
-//	margin-bottom: 2%;
 	background: #fafafa;
 }
 
 header {
 	background: rgba(0, 0, 0, 0.11);
-	/* fallback for old browsers  animation: slowSlide 45s linear infinite; */
-	//	background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
-	//	background:  linear-gradient(to right, #DDEFBB, #FFEEEE), url(blue-1761175_1920.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding: 0;
 	line-height: 2.2;
 	padding-top: 9px;
@@ -126,7 +106,6 @@ header:before {
 	height: 100%;
 	border-radius: 18em;
 	background: url(img/antadio.jpg);
-	//	background: linear-gradient(111deg, #F4FE98 0, #E39242 78%);
 	background-size: cover;
 	border-color: white;
 	border-radius: 19em;
@@ -148,7 +127,7 @@ label,
 
 label:after,
 label:before {
-	content: ;
+	content: "";
 	display: none;
 }
 
@@ -278,14 +257,12 @@ header nav ul li a {
 }
 
 header nav ul li:hover {
-	//  border: 1px solid #fff;
 	transition: 0.3s all;
 }
 
 .hero-image {
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), url(img/cheikh-antas.jpg);
-	/*--linear-gradient(#030202, rgba(157, 94, 66, 0.85)), -->*/
 	background-position: center;
 	background-size: cover;
 	height: 40vw;
@@ -301,7 +278,6 @@ header nav ul li:hover {
 	position: absolute;
 	left: 0;
 	right: 0;
-	//  bottom: 0;
 	top: 20%;
 	text-align: center;
 	width: 70%;
@@ -323,7 +299,7 @@ blockquote footer {
 /* code for open and close quote mark */
 
 blockquote p {
-	color: #fff; //f6f0ee;
+	color: #fff; 
 	font-size: 4em;
 }
 
@@ -368,7 +344,7 @@ blockquote p {
 }
 
 .content {
-	background: ;
+/*	background: ;*/
 	margin: 2% 0.5% 0%;
 }
 
@@ -412,17 +388,16 @@ article h3 {
 }
 
 .left-box {
-	// box-shadow: 0 0 10px 1px rgba(165, 165, 165, 0.93);
 	width: 75%;
 	-webkit-columns: 3 20px;
 	columns: 3 20px;
 }
 
-.left-box p:first-letter {
+.left-box p::first-letter {
 	font-size: 2.5em;
 	color: #8bd2d2;
 	font-weight: 600;
-	line-height: 0.8
+	line-height: 0.8;
 }
 
 .right-box {
@@ -609,47 +584,11 @@ footer h5:hover{
 	padding: 0 30px;
 }
 
-	
-
-
-/*
-	-webkit-transform: translateY(-7%);
-	transform: translateY(-7%);
-*/
-
-/*:last-child{
-    margin-bottom: 0;
-}
-:before, .cell-bg-1:after{
-    display: block;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    top: 0;
-    right: 0;
-    content: "";
-}
-
-:before{
-    border-top: solid 20px #fff;
-    border-right: 20px solid #fff;
-    border-left: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-}
-
-:after{
-    border-bottom: 20px solid #5b7093;
-    border-left: 20px solid #5b7093;
-    border-right: solid 20px transparent;
-    border-top: 2px solid transparent;
-}*/
 
 
 
 
-
-
-/*              media queries start here                                                 */
+/*       media queries start here                                   */
 
 
 
@@ -790,6 +729,7 @@ footer h5:hover{
 	.btn4:after{
 		content: none;
 	}
+	
 	/*  remover hover effect on small screen end*/
 	header nav ul li a {
 		width: 100%;
@@ -898,6 +838,11 @@ footer h5:hover{
 	.footer-page{
 		width: 100%;
 	}
+	.logo-footer {
+		top: 5%;
+		left: 22%;
+		font-size: 1.6em;
+	}
 	footer h5 {
 		left: 5%;
 		bottom: 5%;
@@ -907,6 +852,15 @@ footer h5:hover{
 	.footer-page p {
 		right: 5%;
 		bottom: 5%;
+	}
+	.footer-page ul {
+		position: absolute;
+		left: 5%;
+		bottom: 40%;
+	}
+	.fa {
+		font-size: 3.4em;
+		padding: 0 15px;
 	}
 }
 
@@ -932,5 +886,31 @@ footer h5:hover{
 	}
 	.pict {
 		height: 29vh;
+		width: 48.8%;
+	}
+	.logo-footer {
+		top: 4%;
+		left: 11%;
+		font-size: 1.3em;
+	}
+	footer h5 {
+		left: 2%;
+		bottom: 12%;
+		padding: 0px;
+		font-size: 1em;
+	}
+	.footer-page p {
+		right: -1%;
+		bottom: 1%;
+	}
+	.footer-page ul {
+		position: absolute;
+		left: 14%;
+		bottom: 40%;
+	}
+	.fa {
+		font-size: 3.4em;
+		padding: 0 9px;
+		font-size: 3em
 	}
 }
