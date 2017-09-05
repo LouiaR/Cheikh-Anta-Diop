@@ -563,7 +563,10 @@ span {
 	bottom: 35%;
 	color: white;
 }
-footer h5{
+footer a:before{
+	content: "";
+}
+footer a{
 	position: absolute;
 	left: 20%;
 	bottom: 10%;
@@ -574,7 +577,7 @@ footer h5{
 	outline: 3px solid #c54810;
 	transition:  all .3ms ease-in-out;
 }
-footer h5:hover{
+footer a:hover{
 	outline: 3px solid #c54810;
 	outline-offset: -4px;
 	font-size: 1.3em;
@@ -843,7 +846,7 @@ footer h5:hover{
 		left: 22%;
 		font-size: 1.6em;
 	}
-	footer h5 {
+	footer a {
 		left: 5%;
 		bottom: 5%;
 		padding: 4px;
@@ -893,7 +896,7 @@ footer h5:hover{
 		left: 11%;
 		font-size: 1.3em;
 	}
-	footer h5 {
+	footer a {
 		left: 2%;
 		bottom: 12%;
 		padding: 0px;
