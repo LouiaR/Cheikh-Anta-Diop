@@ -534,6 +534,7 @@ span {
 	background-position:70% 40% ;
 	position: relative;
 	margin-top: -1px;
+	overflow: hidden;
 }
 .bg-footer{
 	background: rgba(255, 0, 0, 0);
@@ -858,12 +859,12 @@ span {
 	}
 	.footer-page ul {
 		position: absolute;
-		left: 5%;
+		left: 8%;
 		bottom: 40%;
 	}
 	.fa {
 		font-size: 3.4em;
-		padding: 0 15px;
+		padding: 0px;
 	}
 }
 
@@ -906,12 +907,12 @@ span {
 	}
 	.footer-page ul {
 		position: absolute;
-		left: 14%;
+		left: 0%;
 		bottom: 40%;
 	}
 	.fa {
 		font-size: 3.4em;
-		padding: 0 9px;
-		font-size: 3em
+		padding: 0px;
+		font-size: 2.6em
 	}
 }
