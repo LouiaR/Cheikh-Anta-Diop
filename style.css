@@ -854,10 +854,10 @@ footer a:hover{
 		outline: 4px solid #c54810;
 	}
 	footer a:hover{
-		outline: 4px solid #c54810;
-		outline-offset: -4px;
+		outline: 1px solid #c54810;
+		outline-offset: 1px;
 		font-size: 1em;
-		padding: 4px;
+		padding: 2px;
 	}
 	.footer-page p {
 		right: 5%;
@@ -906,7 +906,6 @@ footer a:hover{
 	footer a {
 		left: 2%;
 		bottom: 12%;
-		padding: 0px;
 	}
 	.footer-page p {
 		right: -1%;
