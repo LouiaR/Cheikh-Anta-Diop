@@ -898,11 +898,6 @@ footer h5:hover{
 	.footer-page{
 		width: 100%;
 	}
-	.logo-footer {
-		top: 5%;
-		left: 22%;
-		font-size: 1.6em;
-	}
 	footer h5 {
 		left: 5%;
 		bottom: 5%;
@@ -912,15 +907,6 @@ footer h5:hover{
 	.footer-page p {
 		right: 5%;
 		bottom: 5%;
-	}
-	.footer-page ul {
-		position: absolute;
-		left: 5%;
-		bottom: 40%;
-	}
-	.fa {
-		font-size: 3.4em;
-		padding: 0 15px;
 	}
 }
 
@@ -946,31 +932,5 @@ footer h5:hover{
 	}
 	.pict {
 		height: 29vh;
-		width: 48.8%;
-	}
-	.logo-footer {
-		top: 4%;
-		left: 11%;
-		font-size: 1.3em;
-	}
-	footer h5 {
-		left: 2%;
-		bottom: 12%;
-		padding: 0px;
-		font-size: 1em;
-	}
-	.footer-page p {
-		right: -1%;
-		bottom: 1%;
-	}
-	.footer-page ul {
-		position: absolute;
-		left: 14%;
-		bottom: 40%;
-	}
-	.fa {
-		font-size: 3.4em;
-		padding: 0 9px;
-		font-size: 3em
 	}
 }
