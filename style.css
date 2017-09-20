@@ -54,7 +54,7 @@ header:before {
 	background: linear-gradient(rgba(115, 147, 192, 0), rgba(152, 106, 80, 0.04)), url(img/pyrami.jpg);
 	background-size: contain;
 	color: #f0ecff;
-	background-clip: text;
+	background-clip: content-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(236, 233, 233, 0);
 	position: relative;
@@ -427,7 +427,9 @@ hr {
 	margin-bottom: 20px
 }
 
-.s-box-home {}
+.hidden {
+	display: none;
+}
 
 .img-sml {
 	display: none;
@@ -558,11 +560,14 @@ span {
 	font-size: 1.5em;
 	padding: 1em;
 }
-.footer-page ul{
+.footer-page .social-items>div{
 	position: absolute;
 	left: 20%;
 	bottom: 35%;
 	color: white;
+}
+.footer-page .social-items div a{
+	display: inline-block;
 }
 .footer-more:before{
 	content: "";
@@ -857,11 +862,12 @@ span {
 		right: 5%;
 		bottom: 5%;
 	}
-	.footer-page ul {
+	.footer-page .social-items>div{
 		position: absolute;
 		left: 8%;
 		bottom: 40%;
 	}
+
 	.fa {
 		font-size: 3.4em;
 		padding: 0px;
@@ -905,7 +911,7 @@ span {
 		right: -1%;
 		bottom: 1%;
 	}
-	.footer-page ul {
+	.footer-page .social-items>div{
 		position: absolute;
 		left: 0%;
 		bottom: 40%;
